@@ -3,10 +3,9 @@
 ##############################
 # LSTM neural network #
 f_LSTM_recursive_1 <- function(lSplit,
-                               sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                               sPython_path,
                                iBatch_size = 1024,
-                               sSave_path = paste0("/Users/runelangergaard/OneDrive - Aarhus universitet",
-                                                   "/Oecon/10. semester/Code/data/DL_models"),
+                               sSave_path,
                                iN_epochs = 200) {
   
   # Require the Deep Learning packages #
@@ -469,10 +468,9 @@ f_generator_2 <- function(aData, iStart_year, iEnd_year, bShuffle = FALSE,
 
 # LSTM neural network #
 f_LSTM_recursive_2 <- function(aData,
-                             sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                             sPython_path,
                              iBatch_size = 138, # Needs to be divisible with 3174 #
-                             sSave_path = paste0("/Users/runelangergaard/OneDrive - Aarhus universitet",
-                                                 "/Oecon/10. semester/Code/data/DL_models"),
+                             sSave_path,
                              iN_epochs = 200) {
   
   # Load the required packages #
@@ -722,10 +720,9 @@ f_add_LSTM_layer <- function(layer_in, bRet_seq, iLSTM_nodes,
 ##############################
 # LSTM neural network #
 f_LSTM_recursive_3 <- function(aData,
-                               sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                               sPython_path,
                                iBatch_size = 138, 
-                               sSave_path = paste0("/Users/runelangergaard/OneDrive - Aarhus universitet",
-                                                   "/Oecon/10. semester/Code/data/DL_models"),
+                               sSave_path,
                                iN_epochs = 200,
                                iN_lags = 3,
                                iN_rnn_layers = 3,
@@ -986,10 +983,9 @@ f_LSTM_recursive_3 <- function(aData,
 # LSTM Neural Network #
 # With the added cohort effect #
 f_LSTM_recursive_cohort <- function(lSplit,
-                                    sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                                    sPython_path,
                                     iBatch_size = 1024,
-                                    sSave_path = paste0("/Users/runelangergaard/OneDrive - Aarhus universitet",
-                                                        "/Oecon/10. semester/Code/data/DL_models"),
+                                    sSave_path,
                                     iN_epochs = 200,
                                     iDrop_rate = 0.1) {
   
