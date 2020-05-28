@@ -1,2 +1,2 @@
 # Guide to creating the df_mx_all data.frame
-The script lets you create the df_mx_all data.frame that is needed for some functions in the package to run. It uses the mortality rate (mx) files that has been created from the using the f_getHMD function from the package.
+The script [create_df_mx_all.R](https://github.com/rune-l/Improved-Mortality-Forecasts-Using-Artificial-Intelligence/blob/master/Create%20data/create_df_mx_all.R) lets you create the df_mx_all data.frame that is needed for some functions in the package to run. It uses the mortality rate (mx) files that has been created from the using the f_getHMD function from the package.
