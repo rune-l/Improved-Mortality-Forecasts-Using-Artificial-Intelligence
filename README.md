@@ -1,6 +1,6 @@
 # Improved Mortality Forecasts Using Artificial Intelligence
 
-This project compares stochastic factor mortality forecasting models with multi population factor models, machine learning models and deep learning models.
+Master thesis comparing stochastic factor mortality forecasting models with multi population factor models, machine learning models and deep learning models.
 
 
 
