@@ -1,0 +1,12 @@
+Package: mthesis
+Type: Package
+Title: Master thesis on mortality forecasting with AI
+Version: 1.0
+Date: 2020-02-06
+Author: Rune Langergaard
+Maintainer: Rune Langergaard <rlangergaard@gmail.com>
+Description: Empirical comparison of current mortality forecasting models and new AI models.
+License: GPL-3
+Imports: Rcpp (>= 1.0.3), keras, tensorflow, CatEncoders, StMoMo, MortalityLaws, forecast, MCS, xtable, HMDHFDplus, reshape
+LinkingTo: Rcpp, RcppArmadillo
+LazyData: true
