@@ -10,3 +10,4 @@ License: GPL-3
 Imports: Rcpp (>= 1.0.3), keras, tensorflow, CatEncoders, StMoMo, MortalityLaws, forecast, MCS, xtable, HMDHFDplus, reshape
 LinkingTo: Rcpp, RcppArmadillo
 LazyData: true
+URL: https://github.com/rune-l/Improved-Mortality-Forecasts-Using-Artificial-Intelligence/tree/master/mthesis
