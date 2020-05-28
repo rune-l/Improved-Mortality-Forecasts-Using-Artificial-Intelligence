@@ -12,3 +12,5 @@ The package with all the coded functions can be found in the folder mthesis ([li
 
 Mortality data used in this thesis can be found at:
 Human Mortality Database.  University of California, Berkeley (USA), and Max Planck Institute for Demographic Research (Germany). Available at www.mortality.org or www.humanmortality.de
+
+The package requires a data.frame that is named df_mx_all where all mortality rates are stored for all the countries. It must be saved in the data folder and the package must be recompiled with this data.frame. 
