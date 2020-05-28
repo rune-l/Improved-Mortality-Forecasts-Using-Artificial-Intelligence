@@ -3,10 +3,9 @@
 ##############################
 # Normal Feed Forward Neural Network #
 f_FFNN_recursive_1 <- function(lSplit,
-                               sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                               sPython_path,
                                iBatch_size = 1024,
-                               sSave_path = paste0("/Users/runelangergaard/OneDrive - Aarhus universitet",
-                               "/Oecon/10. semester/Code/data/DL_models"),
+                               sSave_path,
                                iN_epochs = 200) {
   
   # Require the Deep Learning packages #
@@ -351,7 +350,7 @@ f_FFNN_recursive_1 <- function(lSplit,
 ##############################
 # Feed forward sequential model #
 f_FFNN_recursive_2 <- function(lSplit,
-                               sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                               sPython_path,
                                iBatch_size = 1024) {
   
   # Require the Deep Learning packages #
@@ -585,7 +584,7 @@ f_FFNN_recursive_2 <- function(lSplit,
 ##############################
 # LC model as a neural network #
 f_FFNN_LC <- function(lSplit,
-                      sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                      sPython_path,
                       iBatch_size = 1024) {
   
   # Load required packages #
@@ -812,10 +811,9 @@ f_FFNN_LC <- function(lSplit,
 ##############################
 # Normal Feed Forward Neural Network with Factor (and loadings) #
 f_FFNN_recursive_1_factor <- function(lSplit,
-                                      sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                                      sPython_path,
                                       iBatch_size = 1024,
-                                      sSave_path = paste0("/Users/runelangergaard/OneDrive - Aarhus universitet",
-                                                          "/Oecon/10. semester/Code/data/DL_models"),
+                                      sSave_path,
                                       iN_epochs = 200) {
   
   # Require the Deep Learning packages #
@@ -1179,10 +1177,9 @@ f_FFNN_recursive_1_factor <- function(lSplit,
 # Normal Feed Forward Neural Network #
 # With the added cohort effect #
 f_FFNN_recursive_1_cohort <- function(lSplit,
-                                      sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                                      sPython_path,
                                       iBatch_size = 1024,
-                                      sSave_path = paste0("/Users/runelangergaard/OneDrive - Aarhus universitet",
-                                                          "/Oecon/10. semester/Code/data/DL_models"),
+                                      sSave_path,
                                       iN_epochs = 200) {
   
   # Require the Deep Learning packages #
