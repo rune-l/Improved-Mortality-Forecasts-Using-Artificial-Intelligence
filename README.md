@@ -4,7 +4,7 @@ Master thesis comparing stochastic factor mortality forecasting models with mult
 
 
 
-The package with all the coded functions can be found in the folder mthesis.
+The package with all the coded functions can be found in the folder mthesis ([link to package](https://github.com/rune-l/Improved-Mortality-Forecasts-Using-Artificial-Intelligence/tree/master/mthesis))
 
 
 
