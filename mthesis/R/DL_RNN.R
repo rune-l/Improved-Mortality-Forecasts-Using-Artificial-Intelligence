@@ -4,10 +4,9 @@
 # Normal Recurrent Neural Network #
 # With the added cohort effect #
 f_RNN_recursive_cohort <- function(lSplit,
-                                   sPython_path = "/Users/runelangergaard/opt/anaconda3/bin/python3",
+                                   sPython_path,
                                    iBatch_size = 1024,
-                                   sSave_path = paste0("/Users/runelangergaard/OneDrive - Aarhus universitet",
-                                                       "/Oecon/10. semester/Code/data/DL_models"),
+                                   sSave_path,
                                    iN_epochs = 200,
                                    iDrop_rate = 0.1) {
   
