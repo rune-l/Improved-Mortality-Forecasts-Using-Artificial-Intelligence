@@ -1,1 +1,2 @@
+# Guide to creating the df_mx_all data.frame
 The script lets you create the df_mx_all data.frame that is needed for some functions in the package to run. It uses the mortality rate (mx) files that has been created from the using the f_getHMD function from the package.
